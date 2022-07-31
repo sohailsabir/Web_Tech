@@ -1,0 +1,1967 @@
+body {
+    background: #D1D2D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+    background: url('bg.jpg') repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.top_row {
+    float: left;
+    width: 100%;
+    background: #13A89E;
+}
+
+    .top_row .column {
+        padding: 5px 0;
+    }
+
+        .top_row .column a:hover {
+            text-decoration: none;
+        }
+
+        .top_row .column span {
+            font-size: 14px;
+            background: none repeat scroll 0 0 transparent;
+            margin-right: 10px;
+            padding: 0;
+        }
+
+    .top_row .btn-xs {
+        padding: 0 15px;
+    }
+
+    .top_row .logout {
+        background: url("../img/signout72.png") no-repeat scroll 52px 0 transparent;
+        border: medium none;
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        height: 21px;
+        margin-left: 0;
+        padding: 2px 0;
+        text-align: left;
+        width: 90px;
+    }
+
+.logo_menu_row {
+    float: left;
+    width: 100%;
+    /*background: #1E1F4A;*/
+}
+
+.label_without_bg {
+    background: none;
+}
+
+.logo {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    max-height: 135px;
+}
+
+    .logo img {
+        width: 160px;
+    }
+
+.rounded_menu_boxes {
+    padding: 11px 0 11px 15px;
+}
+
+    .rounded_menu_boxes ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .rounded_menu_boxes ul li {
+            float: left;
+            list-style: none;
+            display: inline;
+            text-align: center;
+            width: 80px;
+        }
+
+            .rounded_menu_boxes ul li a span {
+                color: #fff;
+                text-align: center;
+            }
+
+            .rounded_menu_boxes ul li a {
+                border-radius: 3px;
+                color: #fff;
+                float: left;
+                font-size: 11px;
+                height: 60px;
+                margin: 5px;
+                padding-top: 0px;
+                text-align: center;
+                width: 60px;
+            }
+
+            .rounded_menu_boxes ul li span {
+                color: #fff;
+                float: left;
+                text-align: center;
+                width: 100%;
+                font-size: 11px;
+            }
+
+            .rounded_menu_boxes ul li a.selected {
+                background-color: #13A89E !important;
+                color: #fff;
+            }
+
+            .rounded_menu_boxes ul li a:hover {
+                background-color: #13A89E;
+                text-decoration: none;
+                color: #fff;
+                opacity: 1;
+            }
+
+.logo a:hover {
+    opacity: 1;
+}
+
+.rounded_menu_boxes ul li a.home {
+    background: url("../img/1.png") no-repeat scroll 14px 11px #fff;
+}
+
+    .rounded_menu_boxes ul li a.home:hover {
+        background-color: #13A89E;
+    }
+
+.rounded_menu_boxes ul li a.attndnce {
+    background: url("../img/2.png") no-repeat scroll 14px 11px #fff;
+}
+
+    .rounded_menu_boxes ul li a.attndnce:hover {
+        background-color: #13A89E;
+    }
+
+    
+.rounded_menu_boxes ul li a.support {
+    background: url("../img/2.png") no-repeat scroll 14px 11px #fff;
+}
+
+    .rounded_menu_boxes ul li a.support:hover {
+        background-color: #13A89E;
+    }
+
+.rounded_menu_boxes ul li a.regCard {
+    background: url(../img/RegistrationCard.png) no-repeat scroll 15px 10px #fff;
+    background-size: 40px;
+}
+
+    .rounded_menu_boxes ul li a.regCard:hover {
+        background-color: #13A89E;
+    }
+
+.rounded_menu_boxes ul li a.fees {
+    background: url(../img/feesicon.jpg) no-repeat scroll 15px 10px #fff;
+    background-size: 40px;
+}
+
+    .rounded_menu_boxes ul li a.fees:hover {
+        background-color: #13A89E;
+    }
+
+.rounded_menu_boxes ul li a.courses {
+    background: url("../img/icons/6.png") no-repeat scroll 14px 11px #fff;
+}
+
+    .rounded_menu_boxes ul li a.courses:hover {
+        background-color: #13A89E;
+    }
+
+.rounded_menu_boxes ul li a.marks {
+    background: url("../img/3.png") no-repeat scroll 14px 11px #fff;
+}
+
+    .rounded_menu_boxes ul li a.marks:hover {
+        background-color: #13A89E;
+    }
+
+
+
+.rounded_menu_boxes ul li a {
+    color: #000;
+    font-size: 10px;
+    padding-top: 50px;
+    width: 70px;
+    height: 78px;
+    font-weight: bold;
+}
+
+    .rounded_menu_boxes ul li a.course_portal {
+        background: url("../img/4.png") no-repeat scroll 14px 11px #fff;
+    }
+
+        .rounded_menu_boxes ul li a.course_portal:hover {
+            background-color: #13A89E;
+        }
+
+    .rounded_menu_boxes ul li a.reports {
+        background: url("../img/5.png") no-repeat scroll 14px 11px #fff;
+    }
+
+        .rounded_menu_boxes ul li a.reports:hover {
+            background-color: #13A89E;
+        }
+
+.page_title_row {
+    /*background: #13A89E;*/
+    float: left;
+    width: 100%;
+}
+
+    .page_title_row h3 {
+        color: #fff;
+        font-size: 23px;
+        /*font-style: italic;*/
+        font-weight: bold;
+        margin: 0;
+        padding: 17px 17px 12px 0;
+        float: left;
+        width: 100%;
+    }
+
+    .page_title_row h5 {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0 17px 0 0;
+        float: left;
+        width: 100%;
+    }
+
+        .page_title_row h5.teachername {
+            color: #e7e8e9;
+            padding: 10px 0;
+        }
+
+.page_title_container {
+    padding: 0;
+}
+
+.circuled_menu_boxes {
+    text-align: right;
+    padding: 0;
+}
+
+    .circuled_menu_boxes ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .circuled_menu_boxes ul li {
+            display: inline;
+            float: left;
+            list-style: outside none none;
+            margin: 15px 2px;
+            width: 68px;
+            height: 75px;
+            color: #fff;
+            padding: 3px 0;
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .circuled_menu_boxes ul li:hover {
+                opacity: 1;
+                background-color: #51c1ba !important;
+                border-radius: 5px;
+                cursor: pointer !important;
+            }
+
+            .circuled_menu_boxes ul li.selected {
+                background-color: #13A89E !important; /*#1E1F4A !important;*/
+                border-radius: 5px;
+                cursor: pointer !important;
+            }
+
+            .circuled_menu_boxes ul li a {
+                float: left;
+                width: 100%;
+                height: 38px;
+                padding: 0;
+            }
+
+                .circuled_menu_boxes ul li a:hover {
+                    text-decoration: none;
+                    opacity: 1;
+                }
+
+.badge {
+    background-color: #f00;
+}
+
+.circuled_menu_boxes ul li a.course_announcements {
+    background: transparent url("../img/icons/00-01.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.quizzes {
+    background: transparent url("../img/icons/00-02.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.assigments {
+    background: transparent url("../img/icons/00-03.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.lessons {
+    background: transparent url("../img/icons/00-04.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.learning_resources {
+    background: transparent url("../img/icons/00-05.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.mdb {
+    background: transparent url("../img/icons/00-06.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.course_contents {
+    background: transparent url("../img/icons/00-07.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.live_sessions {
+    background: transparent url("../img/icons/00-08.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.course_information {
+    background: transparent url("../img/icons/00-09.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.gdb {
+    background: transparent url("../img/icons/00-08.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.attendance {
+    background: transparent url("../img/icons/00-11.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.marks_summary {
+    background: transparent url("../img/icons/00-10.png") no-repeat scroll center top;
+}
+
+.circuled_menu_boxes ul li a.noti {
+    background: transparent url("../img/noti.png") no-repeat scroll 4px 4px;
+}
+
+.circuled_menu_boxes ul li a.assignments_icons {
+    background: transparent url("../img/assig.png") no-repeat scroll 4px 4px;
+}
+
+.rounded_menu_boxes {
+    display: block;
+    margin-top: 10px;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+.inner_row {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.msg_icon {
+    background: url("../img/msg72.jpg") no-repeat scroll 0 0 transparent;
+    font-weight: bold;
+    border: medium none;
+    height: 21px;
+    width: 31px;
+}
+
+    .msg_icon:hover {
+        background-color: transparent;
+        border: none;
+    }
+
+.main_body {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+    .main_body .content_area {
+        background: none repeat scroll 0 0 #fff;
+        padding: 10px;
+        border-radius: 5px;
+        float: left;
+        margin: 15px 0;
+        width: 100%;
+    }
+
+        .main_body .content_area .title_search_area {
+            color: #fff;
+            background: #1e1f4a;
+            padding: 0px 10px;
+            border-radius: 5px;
+        }
+
+            .main_body .content_area .title_search_area h2 {
+                margin: 13px 0;
+            }
+
+
+            .main_body .content_area .title_search_area h3 {
+                margin: 0;
+                padding: 12px 12px 12px 0;
+            }
+
+            .main_body .content_area .title_search_area .search_btn {
+                background: url("../img/search.png") no-repeat scroll center 9px #13a89e;
+                width: 32px;
+                height: 32px;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                position: relative;
+                right: 4px;
+            }
+
+            .main_body .content_area .title_search_area .form-control {
+                height: 32px;
+                width: 245px;
+                border-radius: 5px 0 0 5px;
+                float: left;
+            }
+
+            .main_body .content_area .title_search_area form {
+                padding: 0;
+            }
+
+            .main_body .content_area .title_search_area .page_icon {
+                background: url("../img/bottom-icons72.png") no-repeat scroll 0 top #13a89e;
+                height: 70px;
+                width: 70px;
+            }
+
+.form_area {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+    .form_area form {
+    }
+
+        .form_area form input[type=text] {
+            background: none repeat scroll 0 0 #f9fafb;
+            border: 1px solid #eee;
+            padding: 4px;
+            width: 95%;
+        }
+
+        .form_area form select {
+            background: none repeat scroll 0 0 #f9fafb;
+            border: 1px solid #eee;
+            float: left;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-top: 5px;
+            width: 95%;
+        }
+
+        .form_area form input[type=checkbox] {
+            float: left;
+            width: 7%;
+        }
+
+        .form_area form textarea {
+            background: none repeat scroll 0 0 #f9fafb;
+            border: 1px solid #eee;
+            height: 100px;
+            width: 95%;
+        }
+
+        .form_area form label {
+            float: left;
+            font-size: 14px;
+            width: 95%;
+        }
+
+.form-group {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form_area form input[type=submit] {
+    background: url("../img/go.png") no-repeat scroll 183px 6px #1e1f4a;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    padding: 7px 35px 7px 10px;
+}
+
+
+.footer_menu {
+    background: none repeat scroll 0 0 #1e1f4a;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+}
+
+    .footer_menu ul {
+        margin: 0 auto;
+        padding: 0;
+        width: 183px;
+    }
+
+        .footer_menu ul li {
+            float: left;
+            list-style: none;
+            display: inline;
+        }
+
+            .footer_menu ul li a {
+                border-radius: 34px;
+                color: #fff;
+                float: left;
+                font-size: 12px;
+                height: 35px;
+                margin: 5px;
+                text-align: center;
+                width: 35px;
+            }
+
+                .footer_menu ul li a:hover {
+                    background: #13A89E;
+                    text-decoration: none;
+                }
+
+                .footer_menu ul li a.selected {
+                    background: url("../img/footor_icons.png") no-repeat scroll -35px bottom #13A89E !important;
+                }
+
+                .footer_menu ul li a.new_assignment {
+                    background: url("../img/footor_icons.png") no-repeat scroll 0 top #fff;
+                }
+
+                    .footer_menu ul li a.new_assignment:hover {
+                        background: url("../img/footor_icons.png") no-repeat scroll 0 bottom #13A89E;
+                    }
+
+                .footer_menu ul li a.edit_assignment {
+                    background: url("../img/footor_icons.png") no-repeat scroll -35px top #fff;
+                }
+
+                    .footer_menu ul li a.edit_assignment:hover {
+                        background: url("../img/footor_icons.png") no-repeat scroll -35px bottom #13A89E;
+                    }
+
+                .footer_menu ul li a.add_course {
+                    background: url("../img/footor_icons.png") no-repeat scroll -70px top #fff;
+                }
+
+                    .footer_menu ul li a.add_course:hover {
+                        background: url("../img/footor_icons.png") no-repeat scroll -70px bottom #13A89E;
+                    }
+
+                .footer_menu ul li a.edit_course {
+                    background: url("../img/footor_icons.png") no-repeat scroll -105px top #fff;
+                }
+
+                    .footer_menu ul li a.edit_course:hover {
+                        background: url("../img/footor_icons.png") no-repeat scroll -105px bottom #13A89E;
+                    }
+
+    .footer_menu p {
+        color: #fff;
+        float: left;
+        font-size: 12px;
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+.navbar-form {
+    border-bottom: medium none;
+    border-top: medium none;
+}
+
+
+/*Allowance Portal CSS Starts Here*/
+
+.allownce_content_area_outer {
+    padding: 0 !important;
+}
+
+.allownce_content_area {
+    padding: 0;
+}
+
+.allownce_top_form {
+    background: #f3f4f6 none repeat scroll 0 0;
+    padding: 40px;
+    float: left;
+}
+
+.allownce_form {
+    float: left;
+}
+
+    .allownce_form fieldset {
+        float: left;
+        color: #777;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .allownce_form label {
+        color: #777;
+        float: left;
+        font-size: 15px;
+        font-weight: normal;
+        width: 100%;
+    }
+
+    .allownce_form input[type="text"] {
+        color: #999;
+        float: left;
+        padding: 5px;
+        width: 60%;
+    }
+
+    .allownce_form input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .allownce_form input[type="button"] {
+        border: medium none;
+        color: #fff;
+        float: left;
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+
+        .allownce_form input[type="button"]#btnAdd {
+            background: #37998C;
+        }
+
+        .allownce_form input[type="button"]#btnCancel {
+            background: #377EC0;
+        }
+
+.allowance_blue_bg {
+    background: #1e1f4a none repeat scroll 0 0;
+    float: left;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+    .allowance_blue_bg .column {
+        padding: 0;
+    }
+
+    .allowance_blue_bg h3 {
+        color: #fff;
+        float: left;
+        font-size: 22px;
+        font-weight: normal;
+        margin: 0;
+        width: 50%;
+    }
+
+
+    .allowance_blue_bg .search_form {
+        float: left;
+    }
+
+        .allowance_blue_bg .search_form form {
+            float: right;
+        }
+
+            .allowance_blue_bg .search_form form input[type="text"] {
+                float: left;
+                padding: 4px;
+                width: 200px;
+            }
+
+            .allowance_blue_bg .search_form form input[type="submit"] {
+                background: rgba(0, 0, 0, 0) url("../img/search_icon.png") no-repeat scroll 0 0;
+                border: medium none;
+                float: left;
+                height: 30px;
+                width: 48px;
+            }
+
+
+
+.allowance_table {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+
+    .allowance_table table {
+        font-weight: bold;
+    }
+
+        .allowance_table table th {
+            background: #1E1F4A none repeat scroll 0 0;
+            border-color: #777 !important;
+            color: #fff;
+            text-align: center;
+        }
+
+            .allowance_table table th.topic_area {
+                width: 125px;
+                overflow: hidden;
+                display: inline-block;
+                white-space: nowrap;
+            }
+
+        .allowance_table table td {
+            text-align: center;
+            font-size: 12px;
+        }
+
+            .allowance_table table td.topic_area {
+                width: 125px;
+                overflow: hidden;
+                display: inline-block;
+                white-space: nowrap;
+            }
+
+            .allowance_table table td.gray_bg {
+                background: #C0C2C4 none repeat scroll 0 0 !important;
+                color: #777;
+                font-weight: bold;
+            }
+
+            .allowance_table table td.light_gray_bg {
+                background: #D2D6DC none repeat scroll 0 0 !important;
+                color: #777;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .allowance_table table td.actions {
+            }
+
+                .allowance_table table td.actions a {
+                    float: left;
+                }
+
+                    .allowance_table table td.actions a:hover {
+                        opacity: .7;
+                    }
+
+                    .allowance_table table td.actions a.view {
+                        background: rgba(0, 0, 0, 0) url("../img/view.png") no-repeat scroll 12px 12px;
+                        height: 31px;
+                        width: 33px;
+                    }
+
+                    .allowance_table table td.actions a.edit {
+                        background: rgba(0, 0, 0, 0) url("../img/edit.png") no-repeat scroll 0 0;
+                        height: 31px;
+                        width: 33px;
+                    }
+
+                    .allowance_table table td.actions a.delete {
+                        background: rgba(0, 0, 0, 0) url("../img/delete.png") no-repeat scroll 0 0;
+                        height: 31px;
+                        width: 33px;
+                    }
+
+
+/*Allowance Portal CSS Ends Here*/
+
+
+
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+    .container {
+        padding: 0;
+        width: 238px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .rounded_menu_boxes {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .inner_row {
+        margin: 0 auto;
+        width: 220px;
+    }
+
+    .top_row .column {
+        text-align: center;
+    }
+
+    .logo_menu_row .column {
+        text-align: center;
+    }
+
+    .page_title_row h3 {
+        font-size: 25px;
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main_body {
+        width: 240px;
+    }
+
+    .circuled_menu_boxes {
+        margin-left: 20px;
+        float: left;
+        padding: 0;
+    }
+
+        .circuled_menu_boxes ul li a {
+            margin: 0 18px 13px;
+        }
+
+    .main_body .content_area .title_search_area h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main_body .content_area {
+        margin: 15px;
+    }
+
+        .main_body .content_area .title_search_area .form-control {
+            margin-left: 25px;
+            width: 167px;
+        }
+
+    .logo {
+        padding: 25px;
+    }
+
+    .circuled_menu_boxes ul li {
+        width: 85px;
+    }
+
+        .circuled_menu_boxes ul li span {
+            display: block;
+        }
+
+
+    .allownce_top_form {
+        padding: 20px;
+    }
+
+    .allownce_form input[type="text"] {
+        width: 100%;
+    }
+
+    .allowance_blue_bg .search_form {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .container {
+        padding: 0;
+        width: 318px;
+    }
+
+    .rounded_menu_boxes {
+        display: none;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .inner_row {
+        margin: 0 auto;
+        width: 290px;
+    }
+
+    .top_row .column {
+        float: left;
+        padding: 3px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo_menu_row .column {
+        text-align: center;
+    }
+
+    .page_title_row h3 {
+        font-size: 25px;
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main_body {
+        width: 300px;
+    }
+
+    .circuled_menu_boxes {
+        float: left;
+        padding: 0;
+    }
+
+        .circuled_menu_boxes ul li a {
+            margin: 13px;
+        }
+
+    .main_body .content_area .title_search_area h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main_body .content_area {
+        margin: 15px 0;
+    }
+
+        .main_body .content_area .title_search_area .form-control {
+            margin-left: 25px;
+            width: 215px;
+        }
+
+    .logo {
+        padding: 25px;
+    }
+
+    .circuled_menu_boxes ul li {
+        margin: 1px;
+    }
+
+        .circuled_menu_boxes ul li span {
+            display: block;
+        }
+
+
+    .allownce_top_form {
+        padding: 20px;
+    }
+
+    .allownce_form input[type="text"] {
+        width: 100%;
+    }
+
+    .allowance_blue_bg .search_form {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        padding: 0;
+        width: 478px;
+    }
+
+    .rounded_menu_boxes {
+        display: none;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .mobile_menu {
+        display: block;
+        float: right;
+        padding: 10px;
+        width: 60%;
+    }
+
+    .inner_row {
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .top_row .column {
+        text-align: center;
+    }
+
+    .logo_menu_row .column {
+        text-align: center;
+    }
+
+    .page_title_row h3 {
+        font-size: 25px;
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main_body {
+        width: 460px;
+    }
+
+    .circuled_menu_boxes {
+        float: left;
+        padding: 0;
+    }
+
+        .circuled_menu_boxes ul li a {
+            margin: 10px 30px 7px;
+        }
+
+    .main_body .content_area .title_search_area h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main_body .content_area {
+        margin: 15px 0;
+    }
+
+        .main_body .content_area .title_search_area .form-control {
+            margin-left: 105px;
+            width: 215px;
+        }
+
+        .main_body .content_area .title_search_area {
+            float: left;
+            width: 100%;
+        }
+
+    .top_row .column {
+        float: left;
+        margin: 0 0 0 20px;
+    }
+
+    .logo {
+        float: left;
+        padding: 10px;
+    }
+
+    .circuled_menu_boxes ul li {
+        width: 109px;
+        margin: 1px;
+    }
+
+        .circuled_menu_boxes ul li span {
+            display: block;
+        }
+
+
+
+    .allownce_top_form {
+        padding: 20px;
+    }
+
+    .allownce_form input[type="text"] {
+        width: 80%;
+    }
+
+    .allowance_blue_bg .search_form {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 0;
+        width: 766px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .inner_row {
+        margin: 0 auto;
+        width: 758px;
+    }
+
+    .logo {
+        float: left;
+        padding-right: 0;
+        width: 190px;
+    }
+
+    .rounded_menu_boxes {
+        float: left;
+        padding: 9px 0;
+        width: 565px;
+    }
+
+        .rounded_menu_boxes ul li {
+        }
+
+    .top_row .column {
+        float: left;
+        min-width: 175px;
+        text-align: right;
+    }
+
+    .main_body {
+        width: 758px;
+    }
+
+    .circuled_menu_boxes ul li span {
+        display: block;
+    }
+
+    .page_title_container {
+        float: left;
+    }
+
+    .title_search_area .column {
+        float: left;
+        width: 50%;
+    }
+
+    .main_body .content_area {
+        margin: 15px 0;
+    }
+
+    #new_assignment_form .column {
+        float: left;
+        width: 50%;
+    }
+
+    .page_title_row h3 {
+        padding: 28px 28px 28px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .container {
+        padding: 0;
+        width: 1020px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .inner_row {
+        margin: 0 auto;
+        width: 1002px;
+    }
+
+    .main_body {
+        width: 100%;
+    }
+
+    .page_title_container {
+        float: left;
+    }
+}
+
+
+.login_top_spacer {
+    float: left;
+    height: 75px;
+    width: 100%;
+}
+
+.login_logo_area {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+    .login_logo_area img {
+        width: 260px;
+    }
+
+.heading_area {
+    color: #fff;
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.forgot {
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+    .forgot span {
+    }
+
+        .forgot span a {
+            color: #fff;
+            font-weight: bold;
+        }
+
+            .forgot span a:hover {
+                text-decoration: none;
+            }
+
+            .forgot span a:focus {
+                text-decoration: none;
+            }
+
+.login_bottom_spacer {
+    float: left;
+    height: 75px;
+    width: 100%;
+}
+
+.copy_container {
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+}
+
+.notification {
+    float: left;
+    width: 100%;
+}
+
+    .notification .alert {
+        margin: 10px auto;
+        width: 65%;
+    }
+
+.login_box_container {
+    width: 100%;
+    float: left;
+}
+
+.login_box {
+    background: #fff;
+    border-radius: 5px;
+    height: 201px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+    .login_box img {
+        float: left;
+    }
+
+    .login_box form {
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        width: 410px;
+    }
+
+        .login_box form input[type=text] {
+            background: none repeat scroll 0 0 #d1d2d4;
+            border: 1px solid #999;
+            border-radius: 5px;
+            color: #6d6e71;
+            float: left;
+            margin: 5px 10px 5px 40px;
+            padding: 10px;
+            width: 330px;
+        }
+
+        .login_box form input[type=submit] {
+            background: url("../img/login_button.png") no-repeat scroll 0 0 #fff;
+            border: medium none;
+            border-radius: 5px;
+            float: right;
+            height: 37px;
+            margin-right: 40px;
+            margin-top: 20px;
+            width: 134px;
+        }
+
+        .login_box form input[type=checkbox] {
+            float: left;
+        }
+
+        .login_box form span {
+            float: left;
+            margin-left: 40px;
+            font-size: 15px;
+            margin-top: 25px;
+        }
+
+
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+    .login_top_spacer {
+        height: 15px;
+    }
+
+    .login_logo_area img {
+        width: 185px;
+    }
+
+    .heading_area {
+        font-size: 22px;
+    }
+
+    .login_bottom_spacer {
+        height: 15px;
+    }
+
+    .login_box {
+        width: 96%;
+        height: 205px;
+    }
+
+        .login_box img {
+            display: none;
+        }
+
+        .login_box form {
+            float: left;
+            margin: 10px 0 0 0;
+            width: 100%;
+        }
+
+            .login_box form input[type="text"] {
+                padding: 7px;
+                margin: 5px;
+                width: 95%;
+            }
+
+            .login_box form span {
+                margin-left: 47px;
+                margin-top: 20px;
+                width: 77%;
+            }
+
+            .login_box form input[type="submit"] {
+                margin-right: 50px;
+                margin-top: 15px;
+            }
+
+    .notification .alert {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .login_top_spacer {
+        height: 15px;
+    }
+
+    .login_logo_area img {
+        width: 185px;
+    }
+
+    .heading_area {
+        font-size: 22px;
+    }
+
+    .login_bottom_spacer {
+        height: 15px;
+    }
+
+    .login_box {
+        width: 96%;
+        height: 165px;
+    }
+
+        .login_box img {
+            display: none;
+        }
+
+        .login_box form {
+            float: left;
+            margin: 10px 0 0 0;
+            width: 100%;
+        }
+
+            .login_box form input[type="text"] {
+                padding: 7px;
+                margin: 5px;
+                width: 97%;
+            }
+
+            .login_box form span {
+                margin-left: 5px;
+                margin-top: 20px;
+            }
+
+            .login_box form input[type="submit"] {
+                margin-right: 7px;
+                margin-top: 15px;
+            }
+
+    .notification .alert {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .login_top_spacer {
+        height: 15px;
+    }
+
+    .login_logo_area img {
+        width: 185px;
+    }
+
+    .heading_area {
+        font-size: 22px;
+    }
+
+    .login_bottom_spacer {
+        height: 15px;
+    }
+
+    .login_box {
+        width: 96%;
+        height: 150px;
+    }
+
+        .login_box img {
+            width: 132px;
+        }
+
+        .login_box form {
+            float: left;
+            margin-left: 10px;
+            margin-top: 5px;
+            width: 305px;
+        }
+
+            .login_box form input[type="text"] {
+                margin: 5px 5px 5px 0;
+                padding: 8px;
+                width: 98%;
+            }
+
+            .login_box form span {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+
+            .login_box form input[type="submit"] {
+                margin-right: 7px;
+                margin-top: 7px;
+            }
+
+    .notification .alert {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .login_top_spacer {
+        height: 15px;
+    }
+
+    .login_logo_area img {
+        width: 225px;
+    }
+
+    .heading_area {
+        font-size: 25px;
+    }
+
+    .login_bottom_spacer {
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .login_top_spacer {
+        height: 15px;
+    }
+
+    .login_logo_area img {
+        width: 240px;
+    }
+
+    .heading_area {
+        font-size: 25px;
+    }
+
+    .login_bottom_spacer {
+        height: 15px;
+    }
+}
+
+
+
+.dashboard {
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+    .dashboard a {
+        float: left;
+        margin-bottom: 22px;
+        margin-right: 38px;
+        margin-top: 22px;
+        width: 235px;
+    }
+
+        .dashboard a:hover {
+            opacity: .7;
+        }
+
+        .dashboard a img {
+            float: left;
+        }
+
+        .dashboard a span {
+            float: left;
+            width: 100%;
+        }
+
+            .dashboard a span p {
+                background: none repeat scroll 0 0 #76c8a7;
+                color: #1e1f4a;
+                float: left;
+                font-size: 15px;
+                height: 50px;
+                margin: 0;
+                padding: 15px 0;
+                text-align: center;
+                width: 175px;
+            }
+
+            .dashboard a span img {
+                float: left;
+                width: 60px;
+            }
+
+.dashboard_heading {
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    padding: 28px;
+}
+
+.news_box {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    float: right;
+    height: 81px;
+    margin: 4px;
+    width: 560px;
+}
+
+    .news_box .controls {
+        background: none repeat scroll 0 0 #13a89e;
+        border-radius: 20px;
+        color: #fff;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+        height: 33px;
+        margin: 9px;
+        position: relative;
+        text-align: center;
+        top: 15px;
+        width: 33px;
+    }
+
+    .news_box .new_content {
+        float: left;
+        width: 453px;
+    }
+
+        .news_box .new_content h4 {
+            float: left;
+            margin: 0;
+            padding: 8px 8px 0;
+            width: 100%;
+        }
+
+        .news_box .new_content p {
+            float: left;
+            font-size: 12px;
+            margin: 0;
+            line-height: 19px;
+            padding: 5px;
+            width: 95%;
+        }
+
+
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+    .dashboard a {
+        margin: 10px 5px;
+        width: 100px;
+    }
+
+        .dashboard a img {
+            width: 100px;
+        }
+
+        .dashboard a span p {
+            font-size: 9px;
+            height: 28px;
+            padding: 7px 0;
+            width: 67px;
+        }
+
+        .dashboard a span img {
+            width: 33px;
+        }
+
+    .dashboard_heading {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dashboard_heading {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .news_box {
+        float: left;
+        margin: 4px 0;
+        height: auto;
+        width: 220px;
+    }
+
+        .news_box .controls {
+            font-size: 14px;
+            height: 20px;
+            margin: 3px;
+            top: 40px;
+            width: 20px;
+        }
+
+        .news_box .new_content {
+            width: 165px;
+        }
+
+            .news_box .new_content h4 {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .news_box .new_content p {
+                font-size: 11px;
+                line-height: 14px;
+                width: 100%;
+            }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .dashboard a {
+        margin: 15px 8px;
+        width: 133px;
+    }
+
+        .dashboard a img {
+            width: 133px;
+        }
+
+        .dashboard a span p {
+            font-size: 12px;
+            height: 32px;
+            padding: 8px 0;
+            width: 95px;
+        }
+
+        .dashboard a span img {
+            width: 38px;
+        }
+
+    .dashboard_heading {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .news_box {
+        float: left;
+        margin: 4px 0;
+        height: auto;
+        width: 290px;
+    }
+
+        .news_box .controls {
+            font-size: 14px;
+            height: 20px;
+            margin: 3px;
+            top: 25px;
+            width: 20px;
+        }
+
+        .news_box .new_content {
+            width: 237px;
+        }
+
+            .news_box .new_content h4 {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .news_box .new_content p {
+                font-size: 11px;
+                line-height: 14px;
+                width: 100%;
+            }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .dashboard a {
+        margin: 10px 8px;
+        width: 136px;
+    }
+
+        .dashboard a img {
+            width: 136px;
+        }
+
+        .dashboard a span p {
+            font-size: 13px;
+            height: 32px;
+            padding: 8px 0;
+            width: 98px;
+        }
+
+        .dashboard a span img {
+            width: 38px;
+        }
+
+    .dashboard_heading {
+        text-align: right;
+        width: 60%;
+    }
+
+    .news_box {
+        float: left;
+        margin: 4px 0;
+        height: auto;
+        width: 450px;
+    }
+
+        .news_box .controls {
+            font-size: 14px;
+            height: 20px;
+            margin: 3px;
+            top: 20px;
+            width: 20px;
+        }
+
+        .news_box .new_content {
+            width: 397px;
+        }
+
+            .news_box .new_content h4 {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .news_box .new_content p {
+                font-size: 11px;
+                line-height: 14px;
+                width: 100%;
+            }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .dashboard a {
+        margin: 15px;
+        width: 160px;
+    }
+
+        .dashboard a img {
+            width: 160px;
+        }
+
+        .dashboard a span p {
+            font-size: 13px;
+            height: 35px;
+            padding: 10px 0;
+            width: 119px;
+        }
+
+        .dashboard a span img {
+            width: 41px;
+        }
+
+    .dashboard_heading {
+        padding: 28px 10px 28px 0;
+        text-align: left;
+    }
+
+    .news_box {
+        float: left;
+        margin: 4px 0;
+        width: 400px;
+    }
+
+        .news_box .controls {
+            font-size: 14px;
+            height: 20px;
+            margin: 3px;
+            top: 20px;
+            width: 20px;
+        }
+
+        .news_box .new_content {
+            width: 347px;
+        }
+
+            .news_box .new_content h4 {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .news_box .new_content p {
+                font-size: 12px;
+                line-height: 15px;
+                width: 100%;
+            }
+}
+
+.StudentPicture {
+    margin-top: 10px;
+    color: white;
+}
+
+    .StudentPicture img {
+        border-radius: 15px;
+        width: 125px;
+        height: 125px;
+    }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .dashboard a {
+        margin: 30px;
+        width: 180px;
+    }
+
+        .dashboard a img {
+            width: 180px;
+        }
+
+        .dashboard a span p {
+            font-size: 13px;
+            height: 37px;
+            padding: 12px 0;
+            width: 135px;
+        }
+
+        .dashboard a span img {
+            width: 45px;
+        }
+}
+
+
+.StudentPictureSpinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    padding: 20px;
+    margin-top: 45px;
+    float: right;
+    margin-right: 40px;
+}
+
+/*Loader - Spinner*/
+.Spinner {
+    border: 1px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.lab_class_attendance {
+    width: 46%;
+    float: left;
+    margin-right: 5px;
+}
+
+.only_class_attendance {
+    width: 95%;
+}
+
+.grid_container { height: 850px;}
+.grid_container h3 { margin:10px 0;    }
+.quiz_listing {    margin-top: 0 !important;}
+.grid_container .inner_grid_container {position: relative; height: 330px; overflow-y: auto;  top: 350px;}
+.grid_container .inner_pie_container {position: relative; height: 500px; top: -400px;}
+.legend li {    width: 43% !important;    float: left;    margin-right: 15px;    text-align: left; font-size: 12px;}
+.mobile_menu { float:left;}
+.single_itration { width: 100%;}
+.multiple_itration {}
+
+
+@media only screen and (min-width: 240px) and (max-width: 319px) 
+{
+    .legend li {        width: 88px !important;        margin-right: 5px;    }
+  .mobile_menu { float:left; margin-top: 15px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) 
+{
+    .legend li {        width: 88px !important;        margin-right: 5px;    }
+    .mobile_menu { float:left; margin-top: 15px;}
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) 
+{
+    .legend li {        width: 88px !important;        margin-right: 5px;    }
+    .mobile_menu { float:left; margin-top: 15px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+.legend li {        width: 110px !important;        margin-right: 15px;    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px)
+{
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1365px)
+{
+
+}
+@media only screen and (min-width: 1366px) and (max-width: 1919px)
+{
+
+}
+@media only screen and (min-width: 1920px)
+{
+
+}
