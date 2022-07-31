@@ -1,2 +1,2 @@
 # Web_Tech
- Learn HTML,CSS,JAVA Script and pho
+ Learn HTML,CSS,JAVA Script and php
