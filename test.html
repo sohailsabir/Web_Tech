@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Calculator</title>
+<style>
+input[type="text"]
+{
+width:100%;
+border:solid #d93939 2px;
+font-size:20px;
+height:45px;
+
+
+}
+input[type="button"]
+{
+width:100%;
+border:solid black 2px;
+font-size:20px;
+    width: 97px;
+    height: 50px;
+background-color:#97c9c2;
+margin:3px;
+}
+table{
+background-color:#cdca66;
+border-collapse:collapse;
+
+}
+
+
+
+
+</style>
+</head>
+
+
+
+
+<body>
+<center>
+<table border=1>
+
+<tr>
+<td colspan="4"><input type="text"  id="screen" readonly></td>
+</tr>
+<tr>
+<td><input type="button" value="0" onclick="view('0')"></td>
+<td><input type="button" value="1" onclick="view('1')"></td>
+<td><input type="button" value="2" onclick="view('2')"></td>
+<td><input type="button" value="+" onclick="view('+')"></td>
+</tr>
+<tr>
+<td><input type="button" value="3" onclick="view('3')"></td>
+<td><input type="button" value="4" onclick="view('4')"></td>
+<td><input type="button" value="5" onclick="view('5')"></td>
+<td><input type="button" value="-" onclick="view('-')"></td>
+</tr>
+<tr>
+<td><input type="button" value="6" onclick="view('6')"></td>
+<td><input type="button" value="7" onclick="view('7')"></td>
+<td><input type="button" value="8" onclick="view('8')"></td>
+<td><input type="button" value="X" onclick="view('*')"></td>
+</tr>
+<tr>
+<td><input type="button" value="9" onclick="view('9')"></td>
+<td><input type="button" value="C" onclick="clr()"></td>
+<td><input type="button" value="=" onclick="calculate()"></td>
+<td><input type="button" value="/" onclick="view('/')"></td>
+</tr>
+
+
+
+
+
+</table>
+
+
+</center>
+
+
+</body>
+<script>
+function clr(){
+document.getElementById('screen').value="";
+}
+
+function view(num)
+{
+document.getElementById('screen').value+=num;
+}
+function calculate()
+{
+let x=document.getElementById('screen').value;
+let result=eval(x);
+document.getElementById('screen').value=result;
+}
+
+
+</script>
+
+
+
+</html>
