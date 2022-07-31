@@ -1,0 +1,6 @@
+E:\BSCS\loginform\loginform\bin\loginform.dll.config
+E:\BSCS\loginform\loginform\bin\loginform.dll
+E:\BSCS\loginform\loginform\bin\loginform.pdb
+E:\BSCS\loginform\loginform\obj\Debug\loginform.csprojResolveAssemblyReference.cache
+E:\BSCS\loginform\loginform\obj\Debug\loginform.dll
+E:\BSCS\loginform\loginform\obj\Debug\loginform.pdb
