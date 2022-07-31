@@ -1,0 +1,100 @@
+.mainpagecontainer{
+	background-color:#959796;
+	padding:30px;
+	margin-bottom:50pz;
+	color:white;
+	
+
+}
+.mainpagebody{
+	
+	font-family:Helvetica;
+	background-image: url('bg.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.iframe_container_ofmainpage{
+	text-align:center;
+	width:100%;
+	color:white;
+}
+.imgonmainpage{
+	float:right;
+	margin-left:30px;
+	
+}
+
+
+
+.porfoliobody{
+	color:white;
+	font-family:Helvetica;
+	background-color:#9ACEBC ;
+}
+
+
+.resumebody{
+	background-color:#9ACEBC ;
+	color:white;
+	font-family:Helvetica;
+}
+.resumeh3{
+background-color:#959796 
+}
+
+
+.interviewbody{
+	background-color:#9ACEBC ;
+	color:black;
+	font-family:Helvetica;
+}
+.interviewpage{
+	margin-left:150px;
+	margin-right:150px;
+	background-color:white;
+	padding: 50px;
+}
+.interviewquestion{
+	color:red;
+}
+
+
+
+.goalsbody{
+	background-color:#9ACEBC ;
+	color:black;
+	font-family:Helvetica;
+}
+
+.goalspage{
+	margin-left:150px;
+	margin-right:150px;
+	background-color:white;
+	padding: 50px;
+}
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #976457;
+  color: white;
+}
+
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
