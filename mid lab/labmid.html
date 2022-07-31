@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Lab Mid</title>
+<style>
+.container{
+margin-left:50px;
+margin-right:50px;
+background-color:#6fcbc2;
+text-align:center;
+padding:20px;
+border:2px solid red;
+}
+input[type="button"]{
+
+width:50%;
+height:45px;
+background-color:#00ff43;
+color:white;
+font-size:20px;
+border-radius:20px;
+}
+</style>
+</head>
+<body style="background-color:#423333">
+<div class="container">
+<h1 style="color:#af1269">Check word in the String</h1>
+<h3 id="check" style="color:#af1269; font-size:20px"></h3>
+<input type="button" onclick="check_word()" value="Check the Word 'web' in the enter string">
+</div>
+</body>
+<script>
+let x=prompt();
+document.getElementById('check').innerHTML=x;
+function check_word()
+{
+let result=document.getElementById('check').innerHTML;
+let a=result.search("web");
+let b=result.replace("web",'');
+document.getElementById('check').innerHTML=b;
+}
+
+
+</script>
+
+
+</html>
